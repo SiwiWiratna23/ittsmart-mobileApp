@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ITTSMart",
+    "slug": "ittsmartfinal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconf.png",
+    "splash": {
+      "image": "./assets/splashsc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconf.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.fananizhl.ittsmartfinal"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77afee82-9c61-48b3-a7aa-2260b62ab24c"
+      }
+    }
+  }
+}
